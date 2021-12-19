@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <script src="./home.js"></script>
+    <title>User Sign up</title>
+</head>
+<body>
+    <div class="center-div">
+        <h2 class="heading" style="text-align:center"  >User Sign-up</h2>
+        <br><br>
+        <form class="form" name="form" id="form" method="post" onsubmit="return valid()" action="">
+            <label>Username:</label>
+            <input value=""  placeholder="Your Username" name="uname" id="uname" type="text" required>
+            <br><br>
+            <label style="margin-right: 15px;">E-mail:</label>
+            <input value="" name="email" placeholder="Your E-mail Address" id="email" type="email" required>
+            <br><br>
+            <label >Create Password:</label>
+            <input value="" name="pswd" placeholder="Create your Password" id="pswd" type="password" required>
+            <br><br>
+            <label >Confirm Password:</label>
+            <input value="" name="cpswd" placeholder="Confirm your Password" id="pswd" type="password" required>
+            <br><br>
+            <input class="button" type="submit">
+            <input class="button" type="reset">
+            <br>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
